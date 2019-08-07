@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Chunk Hoppers:jar">
+    <output-path>D:/Bungee/lobby/plugins</output-path>
+    <root id="archive" name="Chunk Hoppers.jar">
+      <element id="module-output" name="Chunk Hoppers" />
+    </root>
+  </artifact>
+</component>

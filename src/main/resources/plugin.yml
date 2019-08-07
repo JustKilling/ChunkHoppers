@@ -1,0 +1,11 @@
+name: ChunkHoppers
+version: ${project.version}
+main: me.justkilling.chunkhoppers.Main
+api-version: 1.13
+authors: [JustKilling]
+description: A hoppers that collect certain items from a chunk!
+commands:
+  chunkhopper:
+    description: Main command
+    aliases: [ch]
+    usage: /<command>
