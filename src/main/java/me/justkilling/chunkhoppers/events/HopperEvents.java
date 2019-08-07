@@ -50,6 +50,7 @@ public class HopperEvents implements Listener {
             event.setDropItems(false);
             if(ChunkHopperGive.player.getGameMode() == GameMode.CREATIVE ){
                 hopperLocations.remove(event.getBlock().getLocation());
+                
             }else{
                 event.getBlock().getLocation().getWorld().dropItemNaturally(event.getBlock().getLocation(), ChunkHopper.ChunkHopper());
                 hopperLocations.remove(event.getBlock().getLocation());
